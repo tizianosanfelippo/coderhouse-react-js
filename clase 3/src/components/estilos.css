@@ -1,0 +1,41 @@
+header{ background-color: orange;}  
+.titulo { text-align:center;
+
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+.correcionhome {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    font-size: 0;
+  }
+  
+  li {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    font-size: 14px;
+  }
+  
+  ul ul {
+    position: absolute;
+    display: none;
+    background-color: orange;
+    padding-right: 30px;
+  }
+  
+  ul ul li {
+    display: block;
+  }
+  
+  ul li:hover ul {
+    display: block;
+  }
